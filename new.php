@@ -58,7 +58,7 @@ $i=0;    while($row=mysql_fetch_assoc($result))
         if($multiArray[$o]["count"]!=0)
         {
             echo $multiArray[$o]["title"]."<br/>";
-            echo $multiArray[$o]["count"]."<br/>";
+            echo "count of search words:- ".$multiArray[$o]["count"]."<br/>";
         }
     }
 ?>
